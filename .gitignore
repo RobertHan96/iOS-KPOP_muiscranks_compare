@@ -1,0 +1,223 @@
+
+# Created by https://www.gitignore.io/api/swift,xcode,python,firebase
+# Edit at https://www.gitignore.io/?templates=swift,xcode,python,firebase
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+# Add this line if you want to avoid checking in Xcode SPM integration.
+# .swiftpm/xcode
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Xcode ###
+# Xcode
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+### Xcode Patch ###
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.gitignore.io/api/swift,xcode,python,firebase
+# Created by https://www.gitignore.io/api/swift,xcode,python,firebase # Edit at https://www.gitignore.io/?templates=swift,xcode,python,firebase ### Firebase ### .idea **/node_modules/* **/.firebaserc ### Firebase Patch ### .runtimeconfig.json .firebase/ ### Python ### # Byte-compiled / optimized / DLL files __pycache__/ *.py[cod] *$py.class # C extensions *.so # Distribution / packaging .Python build/ develop-eggs/ dist/ downloads/ eggs/ .eggs/ lib/ lib64/ parts/ sdist/ var/ wheels/ pip-wheel-metadata/ share/python-wheels/ *.egg-info/ .installed.cfg *.egg MANIFEST # PyInstaller # Usually these files are written by a python script from a template # before PyInstaller builds the exe, so as to inject date/other infos into it. *.manifest *.spec # Installer logs pip-log.txt pip-delete-this-directory.txt # Unit test / coverage reports htmlcov/ .tox/ .nox/ .coverage .coverage.* .cache nosetests.xml coverage.xml *.cover .hypothesis/ .pytest_cache/ # Translations *.mo *.pot # Scrapy stuff: .scrapy # Sphinx documentation docs/_build/ # PyBuilder target/ # pyenv .python-version # pipenv # According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control. # However, in case of collaboration, if having platform-specific dependencies or dependencies # having no cross-platform support, pipenv may install dependencies that don't work, or not # install all needed dependencies. #Pipfile.lock # celery beat schedule file celerybeat-schedule # SageMath parsed files *.sage.py # Spyder project settings .spyderproject .spyproject # Rope project settings .ropeproject # Mr Developer .mr.developer.cfg .project .pydevproject # mkdocs documentation /site # mypy .mypy_cache/ .dmypy.json dmypy.json # Pyre type checker .pyre/ ### Swift ### # Xcode # # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore ## Build generated DerivedData/ ## Various settings *.pbxuser !default.pbxuser *.mode1v3 !default.mode1v3 *.mode2v3 !default.mode2v3 *.perspectivev3 !default.perspectivev3 xcuserdata/ ## Other *.moved-aside *.xccheckout *.xcscmblueprint ## Obj-C/Swift specific *.hmap *.ipa *.dSYM.zip *.dSYM ## Playgrounds timeline.xctimeline playground.xcworkspace # Swift Package Manager # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies. # Packages/ # Package.pins # Package.resolved .build/ # Add this line if you want to avoid checking in Xcode SPM integration. # .swiftpm/xcode # CocoaPods # We recommend against adding the Pods directory to your .gitignore. However # you should judge for yourself, the pros and cons are mentioned at: # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control # Pods/ # Add this line if you want to avoid checking in source code from the Xcode workspace # *.xcworkspace # Carthage # Add this line if you want to avoid checking in source code from Carthage dependencies. # Carthage/Checkouts Carthage/Build # Accio dependency management Dependencies/ .accio/ # fastlane # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the # screenshots whenever they are needed. # For more information about the recommended setup visit: # https://docs.fastlane.tools/best-practices/source-control/#source-control fastlane/report.xml fastlane/Preview.html fastlane/screenshots/**/*.png fastlane/test_output # Code Injection # After new code Injection tools there's a generated folder /iOSInjectionProject # https://github.com/johnno1962/injectionforxcode iOSInjectionProject/ ### Xcode ### # Xcode # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore ## User settings ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9) ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4) ## Xcode Patch *.xcodeproj/* !*.xcodeproj/project.pbxproj !*.xcodeproj/xcshareddata/ !*.xcworkspace/contents.xcworkspacedata /*.gcno ### Xcode Patch ### **/xcshareddata/WorkspaceSettings.xcsettings # End of https://www.gitignore.io/api/swift,xcode,python,firebase Eng
+
+
+
+# https://www.gitignore.io/api/swift,xcode,python,firebase 제작 # https://www.gitignore.io/?templates=swift,xcode,python,firebase에서 편집 ### 중포 기지 ### .생각 ** / node_modules / * ** /. firebaserc ### Firebase 패치 ### .runtimeconfig.json .중포 기지/ ### 파이썬 ### # 바이트 컴파일 / 최적화 / DLL 파일 __pycache __ / * .py [대구] * $ py.class # C 확장 *.그래서 # 유통 / 포장 . 파이썬 짓다/ 개발 계란 / dist / 다운로드 / 달걀/ .달걀/ lib / lib64 / 부분품/ sdist / var / 바퀴 / 핍 휠 메타 데이터 / 공유 / 파이썬 휠 / * .egg-info / .installed.cfg *.계란 명백한 # PyInstaller # 일반적으로 이러한 파일은 템플릿의 파이썬 스크립트로 작성됩니다. PyInstaller가 exe를 빌드하기 전에 #는 날짜 / 기타 정보를 주입합니다. *.명백한 *.투기 # 인스톨러 로그 pip-log.txt pip-delete-this-directory.txt # 단위 테스트 / 범위 보고서 htmlcov / .tox / .nox / .적용 범위 .적용 범위.* .은닉처 nosetests.xml coverage.xml *.덮개 .hypothesis / .pytest_cache / # 번역 * .mo *.냄비 # 으스스한 것들 : .scrapy # 스핑크스 문서 docs / _build / # 파이 빌더 목표/ # pyenv .python 버전 # pipenv # pypa / pipenv # 598에 따르면, 버전 제어에 Pipfile.lock을 포함시키는 것이 좋습니다. # 그러나 플랫폼 별 종속성 또는 종속성이있는 경우 협업의 경우 # 크로스 플랫폼 지원이없는 pipenv는 작동하지 않거나 작동하지 않는 종속성을 설치할 수 있습니다 # 필요한 모든 의존성을 설치하십시오. # Pipfile.lock # 셀러리 비트 일정 파일 셀러리 비트 일정 # SageMath 파싱 된 파일 * .sage.py # 스파이더 프로젝트 설정 .spyderproject .spyproject # 로프 프로젝트 설정 .ropeproject # 미스터 개발자 .mr.developer.cfg .계획 .pydevproject # mkdocs 문서 /대지 # mypy .mypy_cache / .dmypy.json dmypy.json # 파이어 타입 체커 .pyre / ### 빠른 ### # Xcode # # gitignore 기고자 : Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore를 업데이트해야합니다. ## 빌드 생성 파생 데이터 / ## 다양한 설정 * .pbxuser ! default.pbxuser * .mode1v3 ! default.mode1v3 * .mode2v3 ! default.mode2v3 * .perspectivev3 ! default.perspectivev3 xcuserdata / ## 기타 * .moved 제쳐두고 * .xccheckout * .xcscmblueprint ## Obj-C / Swift 특정 * .hmap * .ipa * .dSYM.zip * .dSYM ## 운동장 timeline.xctimeline playground.xcworkspace # 스위프트 패키지 매니저 # Swift Package Manager 종속성에서 소스 코드를 체크인하지 않으려면이 행을 추가하십시오. # 패키지 / # Package.pins # Package.resolved .짓다/ # Xcode SPM 통합을 확인하지 않으려면이 줄을 추가하십시오. # .swiftpm / xcode # 코코아 팟 # .gitignore에 Pods 디렉토리를 추가하지 않는 것이 좋습니다. 하나 # 당신은 스스로 판단해야한다. 장단점은 다음과 같다 : # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control # 포드 / # Xcode 작업 공간에서 소스 코드를 체크인하지 않으려면이 줄을 추가하십시오. # * .xcworkspace # 카르타고 # Carthage 의존성에서 소스 코드를 체크인하지 않으려면이 행을 추가하십시오. # 카르타고 / 체크 아웃 카르타고 / 빌드 # Accio 의존성 관리 의존성 / .accio / # 빠른 차선 # git repo에 스크린 샷을 저장하지 않는 것이 좋습니다. 대신 fastlane을 사용하여 필요할 때마다 # 스크린 샷 # 권장 설정 방문에 대한 자세한 내용은 다음을 참조하십시오. # https://docs.fastlane.tools/best-practices/source-control/#source-control fastlane / report.xml fastlane / Preview.html fastlane / screenshots / ** / *. png fastlane / test_output # 코드 주입 # 새로운 코드 인젝션 툴 후 생성 된 폴더 / iOSInjectionProject가 있습니다. # https://github.com/johnno1962/injectionforxcode iOSInjectionProject / ### Xcode ### # Xcode # gitignore 기고자 : Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore를 업데이트해야합니다. ## 사용자 설정 ## Xcode 8 및 이전 버전과의 호환성 (Xcode 9를 시작할 때 필요하지 않음) ## Xcode 3 및 이전 버전과의 호환성 (Xcode 4를 시작하지 않아도 됨) ## Xcode 패치 * .xcodeproj / * ! *. xcodeproj / project.pbxproj ! *. xcodeproj / xcshareddata / ! *. xcworkspace / contents.xcworkspacedata /*.gcno ### Xcode 패치 ### ** / xcshareddata / WorkspaceSettings.xcsettings # https://www.gitignore.io/api/swift,xcode,python,firebase의 끝
+
